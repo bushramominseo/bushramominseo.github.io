@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://www.bushramomin.com/</title>
+  <link>https://www.bushramomin.com/</link>
+
+<item>
+     <link>https://www.bushramomin.com/</link>
+     <title>Digital Marketing Expert in Mumbai - Bushra Momin</title>
+     <description>Bushra Momin is a digital marketing expert in Mumbai offering SEO, PPC and social media strategies to help brands grow traffic, leads and revenue.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.bushramomin.com/about-me/</link>
+     <title>Bushra Momin | SEO &amp; Digital Marketing Strategist in Mumbai</title>
+     <description>Bushra Momin – SEO &amp; inbound marketing specialist in Mumbai helping brands grow with data-driven digital strategy and sustainable marketing solutions.
+.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.bushramomin.com/contact-me/</link>
+     <title>Bushra Momin | Digital Marketing Consultant in Mumbai</title>
+     <description>Contact Bushra Momin, a digital marketing consultant in Mumbai, for SEO, inbound marketing, and growth strategies focused on measurable business results.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

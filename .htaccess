@@ -1,0 +1,24 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^bushramomin.com$ [NC]
+RewriteRule (.*) https://www.bushramomin.com/$1 [R=301,L] 
+
+
+
+# 1. Remove .html extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^/]+)/$ $1.html [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^/]+)$ $1.html [L]
+
+# 2. Add trailing slash if missing
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{1,4}$   # ignore files
+RewriteRule ^(.+[^/])$ /$1/ [R=301,L]
+
+# 3. Rewrite pretty URL → actual .html file
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ $1.html [L]
